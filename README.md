@@ -1,6 +1,6 @@
 # ETHExplorer V2 based off github.com/etherparty/explorer
 
-![ETHExplorer V2 Screenshot](http://i.imgur.com/wgROAS9.png)
+![ESCExplorer V2 Screenshot](http://i.imgur.com/wgROAS9.png)
 
 ##License
 
@@ -10,7 +10,7 @@ Feel free to modify or reuse the code here.
 
 ##Reddit
 
-Discuss this project at: [Reddit Page on /r/ethreum](https://www.reddit.com/r/ethereum/comments/511j5a/new_ethereum_block_explorer_heavily_updated/)
+Discuss this project at: [Reddit Page on /r/ethreum](https://www.ddengle.com/esc_board)
 
 ##Donations
 
@@ -20,7 +20,7 @@ BTC Address: 1AGxSzTPkthdNKfY5usVLwKDLk9i6sPTQj
 
 ##Installation
 
-`git clone https://github.com/carsenk/explorer`
+`git clone https://github.com/bearting88/explorer`
 
 `npm install`
 
@@ -30,7 +30,7 @@ BTC Address: 1AGxSzTPkthdNKfY5usVLwKDLk9i6sPTQj
 
 Make sure to install geth as well for the ETH explorer to be able to function. Then run:
 
-`geth --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "web3,eth" --rpccorsdomain "http://localhost:8000"`
+`gesc --rpc --rpcaddr localhost --rpcport 8545 --rpcapi "web3,esc" --rpccorsdomain "http://localhost:8000"`
 
 Then visit http://localhost:8000 in your browser of choice after you npm start the explorer
 
@@ -44,9 +44,9 @@ Then visit http://localhost:8000 in your browser of choice after you npm start t
 
 -There is a basic API implemented now as well as well as a Ethereum Blockchain Information page
 
--Realtime ETH/USD Price Ticker
+-Realtime ESC/USD Price Ticker (Later)
 
--Realtime Ethereum Hashrate
+-Realtime Ethereum Soical Coin Hashrate
 
 -Address Pages are integrated with Shapeshift to easily send a payment to an address.
 
